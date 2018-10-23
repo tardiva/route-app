@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Form correctly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <input
+    autoComplete="off"
+    className="form__field "
+    onChange={[Function]}
+    placeholder="Новая точка маршрута"
+    type="text"
+    value=""
+  />
+</form>
+`;

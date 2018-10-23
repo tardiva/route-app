@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should map render correctly 1`] = `
+<div
+  className="map"
+/>
+`;
+
+exports[`should show error message when map is unavailable 1`] = `
+<div
+  className="map"
+>
+  <div
+    className="map__warning"
+  >
+    <span>
+      Что-то пошло не так. Не удается загрузить карту.
+    </span>
+  </div>
+</div>
+`;

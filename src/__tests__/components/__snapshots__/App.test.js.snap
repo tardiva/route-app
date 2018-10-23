@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App correctly 1`] = `
+<div
+  className="App"
+>
+  <Sidebar
+    defaultSidebarWidth={0}
+    docked={false}
+    dragToggleDistance={30}
+    onSetOpen={[Function]}
+    open={true}
+    pullRight={false}
+    shadow={true}
+    sidebar={
+      <div>
+        <div
+          className="app__sidebar-top"
+        >
+          <CreateItemForm
+            onSubmit={[Function]}
+          />
+        </div>
+        <DragDropContext(List)
+          items={Array []}
+          moveItem={[Function]}
+          removeItem={[Function]}
+        />
+      </div>
+    }
+    sidebarClassName="app__sidebar"
+    styles={Object {}}
+    touch={true}
+    touchHandleWidth={20}
+    transitions={true}
+  >
+    <div>
+      <AsyncScriptLoader(Map)
+        asyncScriptOnLoad={[Function]}
+        center={
+          Object {
+            "lat": 55.7526443,
+            "lng": 37.62370929999997,
+          }
+        }
+        handleMapChange={[Function]}
+        handlePointMove={[Function]}
+        points={Array []}
+        warning={false}
+      />
+      <ToggleButton
+        handleClick={[Function]}
+      />
+    </div>
+  </Sidebar>
+</div>
+`;

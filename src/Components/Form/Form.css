@@ -1,0 +1,14 @@
+.form__field {
+    box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    font-size: 14px;
+}
+
+.form__field--error {
+    border-color: #e83232;
+}

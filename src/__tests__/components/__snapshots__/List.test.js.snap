@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should generate ListItemPreview 1`] = `
+<div
+  className="list-item"
+  style={
+    Object {
+      "width": "300px",
+    }
+  }
+>
+  <div
+    className="list-item__content"
+  >
+    Test
+  </div>
+  <button
+    className="list-item__delete-button"
+  >
+    <Icon
+      fill="currentColor"
+      icon={
+        Object {
+          "children": Array [
+            Object {
+              "attribs": Object {
+                "d": "M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z",
+              },
+              "name": "path",
+            },
+          ],
+          "viewBox": "0 0 24 24",
+        }
+      }
+      size={16}
+    />
+  </button>
+</div>
+`;
+
+exports[`should render List correctly 1`] = `
+<div
+  className="list"
+>
+  <ul
+    className="list__list"
+  >
+    <DropTarget(DragSource(ListItem))
+      index={0}
+      item={
+        Object {
+          "coord": Object {
+            "lat": 0,
+            "lng": 0,
+          },
+          "id": 0,
+          "name": "My first point",
+        }
+      }
+      key="0"
+    />
+    <DropTarget(DragSource(ListItem))
+      index={1}
+      item={
+        Object {
+          "coord": Object {
+            "lat": 1,
+            "lng": 1,
+          },
+          "id": 1,
+          "name": "My second point",
+        }
+      }
+      key="1"
+    />
+    <DropTarget(DragSource(ListItem))
+      index={2}
+      item={
+        Object {
+          "coord": Object {
+            "lat": 2,
+            "lng": 2,
+          },
+          "id": 2,
+          "name": "My third point",
+        }
+      }
+      key="2"
+    />
+  </ul>
+  <Preview
+    generator={[Function]}
+  />
+</div>
+`;
+
+exports[`should render empty List 1`] = `
+<div
+  className="list"
+>
+  <ul
+    className="list__list"
+  />
+  <Preview
+    generator={[Function]}
+  />
+</div>
+`;

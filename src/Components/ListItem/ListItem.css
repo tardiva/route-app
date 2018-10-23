@@ -1,0 +1,28 @@
+.list-item {
+    margin: 3px 0;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #BEBEBE;
+    border-radius: 4px;
+}
+
+.list-item__content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list-item__delete-button {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    color: #282c34;
+    cursor: pointer;
+}
